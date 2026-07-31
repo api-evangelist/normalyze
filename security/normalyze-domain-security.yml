@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: probed
+source: dig + openssl TLS/HTTP probe of normalyze.ai (2026-07-20)
+note: >-
+  normalyze.ai (www) now issues a 301 redirect to
+  https://www.proofpoint.com/us/normalyze-is-now-proofpoint — Normalyze was
+  acquired by Proofpoint and its standalone site is a redirect/marketing
+  property. DNS-level records below are genuine for the normalyze.ai domain;
+  host-level HTTP/TLS reflects the redirect endpoint.
+hosts:
+  - host: www.normalyze.ai
+    https: true
+    tls_version: TLSv1.3
+    cert_issuer: Sectigo Public Server Authentication CA OV R36
+    cert_not_after: '2026-12-24'
+    hsts: false
+    redirects_to: https://www.proofpoint.com/us/normalyze-is-now-proofpoint
+domains:
+  - domain: normalyze.ai
+    dnssec: false
+    caa: []
+    spf: true
+    spf_record: "v=spf1 include:dc-aa8e722993._spfm.normalyze.ai include:mktomail.com include:_spf.salesforce.com ~all"
+    dmarc: true
+    dmarc_policy: quarantine

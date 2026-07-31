@@ -1,24 +1,62 @@
 aid: normalyze
 name: Normalyze
-description: Normalyze is a company surfaced as a portfolio company of battery-ventures, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Normalyze was a data security posture management (DSPM) company that helped
+  organizations discover, classify, and protect sensitive data across SaaS,
+  PaaS, multi-cloud, on-premises, and hybrid environments, mapping data access
+  paths and prioritizing risk. Backed by Battery Ventures and Lightspeed Venture
+  Partners, Normalyze was acquired by Proofpoint in 2024 and its capabilities are
+  now delivered as part of the Proofpoint Data Security Posture Management
+  product line; the normalyze.ai domain redirects to Proofpoint. Normalyze never
+  published a standalone public developer portal, API reference, or SDK, so this
+  profile has no independent API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/normalyze/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
 - lightspeed-venture-partners
+x-acquired-by: proofpoint
+x-status: acquired
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-api-surface
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Security
+- Data Security
+- DSPM
+- Data Security Posture Management
+- Cloud Security
+- Data Governance
+- Compliance
+image: https://www.proofpoint.com/themes/custom/proofpoint/apps/drupal/images/favicons/favicon.svg
 apis: []
+common:
+- type: Website
+  url: https://www.normalyze.ai/us/normalyze-is-now-proofpoint
+- type: DomainSecurity
+  url: security/normalyze-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
