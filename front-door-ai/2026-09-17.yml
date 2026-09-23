@@ -1,0 +1,33 @@
+# Front Door AI Index — normalyze — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: normalyze
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.normalyze.ai
+  final_host: www.proofpoint.com
+  ownership: own
+  owner: normalyze
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 25
+  host_score: 25
+  density: 23.39
+  words: 1069
+  tiers:
+    agentic: 5
+    core: 18
+    model: 2
+  ambiguous: 8
+  top_terms:
+    AI: 16
+    agent: 5
+    AI agent: 2
+    Claude: 2
+    MCP: 2
+    gen ai: 2
+    intelligence: 2
+    agentic: 1
+    smart: 1
